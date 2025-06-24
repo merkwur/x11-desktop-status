@@ -9,8 +9,10 @@ DesktopState
     current_workspace: u32
     windows: {
         id: u32, 
+        class: String, 
         title: String, 
-        active: bool
+        active: bool,
+        workspace: u32,
     }   
 }
 ```
