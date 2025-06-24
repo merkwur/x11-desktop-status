@@ -7,13 +7,13 @@ DesktopState
 { 
     workspaces: Vec<String>, 
     current_workspace: u32
-    windows: {
+    windows: Vec<{
         id: u32, 
         class: String, 
         title: String, 
         active: bool,
         workspace: u32,
-    }   
+    }>   
 }
 ```
 
